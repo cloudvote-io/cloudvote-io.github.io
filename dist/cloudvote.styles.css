@@ -1,8 +1,14 @@
+#ftu-page-root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
 .info-card {
   display: flex;
   flex-direction: column;
   padding: 2% 12%;
-  min-height: 150px;
+  height: 67%;
   text-align: center; }
 
 .info-card:nth-child(2n) {
@@ -38,11 +44,20 @@
   border: 3px solid white;
   padding: 8px; }
 
+@media only screen and (max-width: 600px) {
+  .info-card {
+    padding: 2%; }
+  .info-card-body > form > span {
+    display: none; } }
+
 .info-card:nth-child(2n) > .info-card-body > form > input {
   background-color: white;
   border: none;
   font-family: arial, sans-serif;
-  padding: 8px; }
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
 
 .info-card:nth-child(2n) > .info-card-body > form > input[type=button]:hover {
   background-color: black;
@@ -57,6 +72,7 @@
   border-right-width: 3px;
   border-bottom-width: 1px; }
 
+html,
 body,
 #root {
   height: 100%;
