@@ -34,6 +34,7 @@ export default {
             our profiling tools!
           </section>
         </section>
+        <span id="test"></span>
       </div>
   `
 }

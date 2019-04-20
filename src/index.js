@@ -11,4 +11,5 @@ import './styles/root.css'
   }
 
   document.getElementById('root').innerHTML = ftu.markup;
+  document.getElementById('test').innerHTML = screen.width;
 })();
