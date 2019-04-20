@@ -44,7 +44,7 @@
   border: 3px solid white;
   padding: 8px; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 812px) {
   .info-card {
     padding: 2%; }
   .info-card-header {
