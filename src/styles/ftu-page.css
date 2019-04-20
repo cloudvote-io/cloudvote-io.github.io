@@ -58,6 +58,10 @@
     padding: 2%;
   }
 
+  .info-card-header {
+    font-size: 48px;
+  }
+
   .info-card-body > form > span {
     display: none;
   }

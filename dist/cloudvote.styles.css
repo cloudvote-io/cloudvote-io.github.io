@@ -47,6 +47,8 @@
 @media only screen and (max-width: 600px) {
   .info-card {
     padding: 2%; }
+  .info-card-header {
+    font-size: 48px; }
   .info-card-body > form > span {
     display: none; } }
 
