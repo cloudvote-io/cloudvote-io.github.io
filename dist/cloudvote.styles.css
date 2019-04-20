@@ -48,8 +48,7 @@
   .info-card {
     padding: 2%; }
   .info-card-header {
-    color: red;
-    font-size: 48px; }
+    font-size: 28px; }
   .info-card-body > form > span {
     display: none; } }
 
