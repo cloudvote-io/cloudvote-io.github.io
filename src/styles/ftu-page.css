@@ -1,0 +1,69 @@
+.info-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 12%;
+  min-height: 250px;
+  text-align: center;
+}
+
+.info-card:nth-child(2n) {
+  background-color: black;
+  color: white;
+}
+
+.info-card > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.info-card-header {
+  border-bottom: 6px black solid;
+  font-family: "helvetica", "arial", sans-serif;
+  font-size: 24px;
+  padding-bottom: 4px;
+}
+
+.info-card-header > img {
+  height: auto;
+  width: auto;
+}
+
+.info-card:nth-child(2n) > .info-card-header {
+  border-color: white;
+}
+
+.info-card-body {
+  align-items: center;
+  display: flex;
+  font-family: "helvetica", "arial", sans-serif;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.info-card:nth-child(2n) > .info-card-body > form {
+  border: 3px solid white;
+  padding: 8px;
+}
+
+.info-card:nth-child(2n) > .info-card-body > form > input {
+  background-color: white;
+  border: none;
+  font-family: arial, sans-serif;
+  padding: 8px;
+}
+
+.info-card:nth-child(2n) > .info-card-body > form > input[type=button]:hover {
+  background-color: black;
+  border: 2px white solid;
+  color: white;
+  font-family: arial, sans-serif;
+  padding: 6px;
+}
+
+.info-card:nth-child(2n) > .info-card-body > form > input[type=button]:active {
+  border-left-width: 1px;
+  border-top-width: 2px;
+  border-right-width: 3px;
+  border-bottom-width: 1px;
+}
